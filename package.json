@@ -1,0 +1,35 @@
+{
+  "name": "nickode-lab-theme",
+  "displayName": "NickCode Lab Theme",
+  "description": "My personal theme for VS Code, found me in youtube.com/@nickodelab",
+  "version": "1.0.0",
+  "publisher": "nickodelab",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "nickodelab",
+    "nickodelab",
+    "nickodelab theme",
+    "nickode lab",
+    "nickode lab theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NickCode Lab Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nick Theme-color-theme.json"
+      }
+    ]
+  }
+}
