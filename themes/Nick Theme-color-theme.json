@@ -214,7 +214,7 @@
 			"storage.modifier"
 		  ],
 		  "settings": {
-			"foreground": "#F06048"
+			"foreground": "#F0D878"
 		  }
 		},
 		{
@@ -296,7 +296,7 @@
 			"entity.name.type.module.js"
 		  ],
 		  "settings": {
-			"foreground": "#FFC060"
+			"foreground": "#d84848"
 		  }
 		},
 		{
@@ -321,7 +321,7 @@
 			"string.quoted.single.scss"
 		  ],
 		  "settings": {
-			"foreground": "#A7A8AF"
+			"foreground": "#616263"
 		  }
 		},
 		{
@@ -335,14 +335,16 @@
 		{
 		  "scope": [
 			"comment.line.scss",
+			"comment.line.double-slash",
 			"comment.line.double-slash.js",
 			"punctuation.definition.comment.scss",
 			"punctuation.definition.comment.js",
 			"punctuation.definition.comment.html",
-			"comment.block.html"
+			"comment.block.html",
+			"comment.block.documentation"
 		  ],
 		  "settings": {
-			"foreground": "#6D6F7C"
+			"foreground": "#616263"
 		  }
 		},
 		{
@@ -676,7 +678,7 @@
 			"entity.name.section.markdown"
 		  ],
 		  "settings": {
-			"foreground": "#FFC060",
+			"foreground": "#d84848",
 			"fontStyle": "bold"
 		  }
 		},
